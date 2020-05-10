@@ -1,5 +1,10 @@
 # Nginx
 
+**Daftar isi**  
+1. [Cara kerja](#Cara-kerja-nginx)
+2. [Konfigurasi file](#Konfigurasi-file)
+3. [Syntax](#syntax)
+
 ## Cara kerja nginx 
 
 Nginx memiliki 1 master proses, dan beberapa worker proses.  
