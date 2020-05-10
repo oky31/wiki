@@ -52,3 +52,31 @@ events {
 - adalah block directive yang memiliki directive lain didalamnya
 - block directive yang berada diluar directive lain disebut "main context"
 
+
+## Syntax
+
+### Install
+```
+$ sudo apt install nginx
+```
+
+### Daftar Semua proses yang sedang berjalan
+```
+$ ps -ax | grep nginx
+```
+
+### Menjalankan nginx
+Mengunakan systemd
+```
+$ sudo systemctl start nginx 
+$ sudo systemctl stop nginx 
+$ sudo systemctl quit nginx
+$ sudo systemctl reload nginx
+$ sudo systemctl reopen nginx 
+```
+
+### Cek konfigurasi file
+```
+$ nginx -t
+```
+
